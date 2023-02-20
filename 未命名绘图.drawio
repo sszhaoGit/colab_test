@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T02:15:28.075Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="X0chfLnb2FJ0LnwQgl1u" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T02:18:47.602Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-H-oyGisqIY4vbCPTfj0" version="20.8.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1309" dy="616" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1758" dy="813" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,10 +172,10 @@
         <mxCell id="77e6c97f196da883-7" value="策略算法" style="swimlane;html=1;startSize=20;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;labelBackgroundColor=none;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="868" y="20" width="182.5" height="775" as="geometry" />
         </mxCell>
-        <mxCell id="ZUHzj396AUKR70QlUK45-9" value="离线用户意图词挖掘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;labelBackgroundColor=none;" parent="77e6c97f196da883-7" vertex="1">
+        <mxCell id="ZUHzj396AUKR70QlUK45-9" value="离线用户意图词挖掘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=#0F8B8D;fontColor=#143642;labelBackgroundColor=none;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="30" y="60" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZUHzj396AUKR70QlUK45-42" value="用户意图模型训练" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;labelBackgroundColor=none;" parent="77e6c97f196da883-7" vertex="1">
+        <mxCell id="ZUHzj396AUKR70QlUK45-42" value="用户意图模型训练" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#E6E6E6;strokeColor=#0F8B8D;fontColor=#143642;labelBackgroundColor=none;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="21.25" y="118" width="119.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZUHzj396AUKR70QlUK45-44" value="创意库构建及&lt;br&gt;创意意图词挖掘" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFD966;strokeColor=#0F8B8D;fontColor=#143642;labelBackgroundColor=none;" parent="77e6c97f196da883-7" vertex="1">
@@ -190,13 +190,13 @@
             <mxPoint x="22" y="137" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZUHzj396AUKR70QlUK45-58" value="sctr1模型训练" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;labelBackgroundColor=none;" parent="77e6c97f196da883-7" vertex="1">
+        <mxCell id="ZUHzj396AUKR70QlUK45-58" value="sctr1模型" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFCCCC;strokeColor=#0F8B8D;fontColor=#143642;labelBackgroundColor=none;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="25" y="373.5" width="120" height="28" as="geometry" />
         </mxCell>
         <mxCell id="ZUHzj396AUKR70QlUK45-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#A8201A;fontColor=default;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="77e6c97f196da883-7" source="ZUHzj396AUKR70QlUK45-58" target="ZUHzj396AUKR70QlUK45-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZUHzj396AUKR70QlUK45-113" value="冷启动，根据intentword统计" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;labelBackgroundColor=none;" parent="77e6c97f196da883-7" vertex="1">
+        <mxCell id="ZUHzj396AUKR70QlUK45-113" value="冷启动，根据搜索结果页intentword统计" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFCCCC;strokeColor=#0F8B8D;fontColor=#143642;labelBackgroundColor=none;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="31.25" y="453" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="PcX0hmXizh6-f0QxLgqb-38" value="根据crt历史数据统计" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#E6E6E6;strokeColor=#0F8B8D;fontColor=#143642;labelBackgroundColor=none;" parent="77e6c97f196da883-7" vertex="1">
@@ -410,7 +410,7 @@
         </mxCell>
         <mxCell id="ZUHzj396AUKR70QlUK45-218" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" parent="1" target="ZUHzj396AUKR70QlUK45-205" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1539" y="120" as="sourcePoint" />
+            <mxPoint x="1550" y="123" as="sourcePoint" />
             <mxPoint x="1600" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
